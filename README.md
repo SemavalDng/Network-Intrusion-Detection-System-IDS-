@@ -17,9 +17,10 @@ Each dataset record represents a network connection, described using:
 - Numerical features: duration, number of bytes, error rates, etc. 
 - Categorical features: protocol type, service, connection flag 
 
-## Original labels are :
+## Labels are :
 - normal
 - Multiple attack types (e.g., neptune, smurf, satan, guess_passwd, etc.)
+
 To align the project with practical IDS objectives, the dataset was transformed from multi-class labels to binary labels:
 - 0 -> Normal traffic
 - 1 ->Attack traffic (any type of attack)
